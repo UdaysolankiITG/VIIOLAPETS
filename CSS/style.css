@@ -88,10 +88,10 @@ header {
   border-radius: 5px;
   width: 100%;
 }
-
 a {
   text-decoration: none;
   color: var(--tertiory-color);
+  align-items: flex-end;
 }
 .navlink {
  font-weight: 600;
