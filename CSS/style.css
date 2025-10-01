@@ -10,7 +10,7 @@
   --font-body-family: Poppins, sans-serif;
 }
 h1.logo {
-    padding: 10px;
+  padding: 10px;
 }
 .flex {
   display: flex;
@@ -99,12 +99,13 @@ header {
 }
 
 .navlink {
+    padding: 0px 20px;
  font-weight: 600;
   font-size: 16px;
   opacity: 0.8;
   font-family: var(--font-body-family);
   list-style: none;
-  gap: 40px;
+  gap: 32px;
 }
 .header-icons {
   gap: 20px;
