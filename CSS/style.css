@@ -9,6 +9,9 @@
   --tertiory-color: #435870;
   --font-body-family: Poppins, sans-serif;
 }
+h1.logo {
+    padding: 7.5px;
+}
 .flex {
   display: flex;
 }
@@ -84,14 +87,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:12px 30px;
+  padding:6px 30px;
   border-radius: 5px;
   width: 100%;
 }
-a {
+.li {
   text-decoration: none;
   color: var(--tertiory-color);
-  align-items: flex-end;
+}
+a.li {
+    display: flex;
+    align-items: flex-end;
 }
 .navlink {
  font-weight: 600;
