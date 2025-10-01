@@ -45,6 +45,9 @@ h1.logo {
 .full-width {
   width: 100%;
 }
+.banner-vedio{
+    height: 840px;
+}
 .vedio-txt-ctn {
   position: absolute;
   top: 99.9%;
@@ -105,10 +108,10 @@ header {
   opacity: 0.8;
   font-family: var(--font-body-family);
   list-style: none;
-  gap: 32px;
+  gap: 40px;
 }
 .header-icons {
-  gap: 20px;
+  gap: 14px;
 }
 
 .icon-border {
