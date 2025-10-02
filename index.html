@@ -20,8 +20,8 @@
         </div>
       </div>
     </div>
-    <header>
-      <div>
+    <div class="header-wraper">
+        <header>
         <div class="main">
           <div>
             <h1 class="logo">
@@ -63,17 +63,18 @@
           </div>
           <div class="navbar">
             <ul class="navlink flex">
-              <li><a class="li" href="#">Home</a></li>
-              <li ><a class="li" href="#" class="flex">Shop <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg></a></li>
-              <li ><a class="li" href="#" class="flex">About Us <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg></a></li>
-              <li><a class="li" href="#">FAQs</a></li>
-              <li><a class="li" href="#">Contact Us</a></li>
+              <li class="nav-li"><a class="li" href="#">Home</a></li>
+              <li class="nav-li"><a class="li flex"  href="#">Shop <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg></a> </li>
+              <li class="nav-li"><a class="li flex"  href="#">About Us <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg></a></li>
+              <li class="nav-li"><a class="li" href="#">FAQs</a></li>
+              <li class="nav-li"><a class="li" href="#">Contact Us</a></li>
             </ul>
           </div>
           <div class="header-icons flex">
-            <div>
-              <a href="#">
+            <span class="icon-border">
+               <a href="#">
                 <svg
+                class="search-icon"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 256 256"
                   focusable="false"
@@ -104,10 +105,9 @@
                   </g>
                 </svg>
               </a>
-            </div>
-            <span class="icon-border"></span>
-            <div>
-              <a href="#">
+            </span>
+            <span class="icon_border"></span>
+            <span class="icon-border"><a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 256 256"
@@ -140,9 +140,8 @@
                   </g>
                 </svg>
               </a>
-            </div>
-            <span class="icon-border"></span>
-            <div>
+            </span>
+             <span class="icon_border"></span>
               <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,12 +175,10 @@
                   </g>
                 </svg>
               </a>
-            </div>
-          </div>
         </div>
+      </header>
       </div>
-    </header>
-    <section>
+ 
       <div class="banner-vedio">
         <video
           class="full-width"
@@ -198,5 +195,6 @@
         </div>
       </div>
     </section>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
