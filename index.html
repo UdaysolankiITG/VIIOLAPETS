@@ -24,8 +24,13 @@
   <div class="header-wraper  page-width">
     <header>
       <div class="main">
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <div>
-          <h1 class="logo">
+          <h1 class="logo logo-ctn">
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" 0 fill="none" viewBox="0 0 800 242" height="36.3%"
                 width="120">
                 <path fill="#53565A"
@@ -176,7 +181,7 @@
             </a>
           </span>
           <span class="icon_border"></span>
-          <a href="#">
+          <a href="#" class="icon" id="cart-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
               color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))" style="
                     user-select: none;
@@ -198,6 +203,21 @@
             </svg>
           </a>
         </div>
+        <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+      
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-content">
+            <div class="empty-cart-message">YOUR CART IS EMPTY</div>
+            <a href="#" class="continue-shopping">Continue Shopping</a> 
+            <div class="account-section full-width">
+                <div class="account-title">HAVE AN ACCOUNT?</div>
+                <a href="#" class="login-link"><span class="line">Log in</span> to check out faster.</a>
+            </div>
+        </div>
+    </div>
     </header>
   </div>
 
@@ -210,8 +230,6 @@
       <a href="#" class="custom-btn font-family txt-decoor-n">Get Yours</a>
     </div>
   </div>
-  </section>
   <script src="./JS/script.js"></script>
 </body>
-
 </html>
