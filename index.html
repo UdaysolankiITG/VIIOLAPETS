@@ -22,19 +22,29 @@
     </div>
   </div>
 
-  <header class="menu-wapper ">
+  <header class="header-wraper">
     <div>
       <div>
-        <div class="menu-content">
-          <h1 class="flex"><a href="" class="heading-link flex">
+        <div class="header-content" id="header">
+          <div class="hamburger">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" class="icon icon-hamburger"
+                viewBox="0 0 18 16">
+                <path fill="currentColor"
+                  d="M1 .5a.5.5 0 1 0 0 1h15.71a.5.5 0 0 0 0-1zM.5 8a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1A.5.5 0 0 1 .5 8m0 7a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5">
+                </path>
+              </svg>
+            </span>
+          </div>
+          <h1 class="flex" id="logo"><a href="" class="heading-link flex">
               <div class="logo-media flex">
                 <img src="./ASSETS/Images and vedio/logo.svg" width="120" height="36.3" alt="">
               </div>
             </a></h1>
-          <nav class="navbar">
+          <nav class="navbar" id="nav">
             <ul class="navlink flex">
               <li><a href="#">Home</a></li>
-              <li class="shop-mega-menu"><a class="icon-position" href="#">Shop<svg class="icon-caret"
+              <li class="shop-mega-menu"><a class="icon-position" href="#">Shop <svg class="icon-caret"
                     viewBox="0 0 10 6" data-acsb-hidden="true">
                     <path fill="currentColor" fill-rule="evenodd"
                       d="M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
@@ -46,19 +56,39 @@
                       <div class="shop-text">
                         <h3>Ultimate Treat Pouch</h3>
                         <ul class="show-heading-page list-none">
-                          <li><p class="card-headings" href="#">Mini</p></li>
-                          <li><p class="card-headings" href="#">Standard</p></li>
-                          <li><p class="card-headings" href="#">Large</p></li>
-                          <li><p class="card-headings" href="#">Sealable</p></li>
-                          <li><p class="card-headings" href="#">Shop All</p></li>
+                          <li>
+                            <p class="card-headings" href="#">Mini</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Standard</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Large</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Sealable</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Shop All</p>
+                          </li>
                         </ul>
                         <h3>Accessories</h3>
                         <ul class="show-heading-page list-none  page-width">
-                          <li><p class="card-headings" href="#">Carabiner</p></li>
-                          <li><p class="card-headings" href="#">Adventure Clip</p></li>
-                          <li><p class="card-headings" href="#">Mini Adventure</p></li>
-                          <li><p class="card-headings" href="#">Essential Hat</p></li>
-                          <li><p class="card-headings" href="#">Shop All</p></li>
+                          <li>
+                            <p class="card-headings" href="#">Carabiner</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Adventure Clip</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Mini Adventure</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Essential Hat</p>
+                          </li>
+                          <li>
+                            <p class="card-headings" href="#">Shop All</p>
+                          </li>
                         </ul>
                       </div>
                       <div class="shop-img-card">
@@ -96,8 +126,8 @@
                   </div>
                 </div>
               </li>
-              <li class="icon-position"><a href="#" class=".dropdown-hover2">About Us<svg class="icon-caret" viewBox="0 0 10 6"
-                    data-acsb-hidden="true">
+              <li class="icon-position"><a href="#" class=".dropdown-hover2">About Us<svg class="icon-caret"
+                    viewBox="0 0 10 6" data-acsb-hidden="true">
                     <path fill="currentColor" fill-rule="evenodd"
                       d="M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
                       clip-rule="evenodd"></path>
@@ -113,8 +143,12 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
+          <div class="input none" id="search">
+            <input type="text" name="" id="">
+            <span id="close">X</span>
+          </div>
           <div>
-            <div class="header-icons">
+            <div class="header-icons" id="icons">
               <div class="icon">
                 <div class="svg-wapper">
                   <svg id="sarch-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
@@ -197,7 +231,9 @@
         </div>
       </div>
     </div>
+    <div class="res-wraper bg-gray none" id="search-bg">
 
+    </div>
   </header>
 
   <div class="banner-vedio">
@@ -211,4 +247,5 @@
   </div>
   <script src="./JS/script.js"></script>
 </body>
+
 </html>
